@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(59, 255, 245);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    min-height: 350px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background: rgb(182, 255, 233);
+    border: 5px groove purple;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+}
+ .counter h1{
+    font-size: 3rem;
+ }
+ #count{
+    color: purple;
+    font-size: 4rem;
+ }
+ #buttons{
+    display: inline-block;
+ }
